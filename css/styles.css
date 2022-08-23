@@ -213,6 +213,7 @@ nav {
 footer {
     padding-top: 60px;
     padding-bottom: 60px;
+
 }
 
 .web-logo {
@@ -671,7 +672,7 @@ header {
 .footer .container{
     display: flex;
     align-items: baseline;
-    gap: 70px;
+    gap: 93px;
 }
 
 .find-us-title, .follow-us-title {
@@ -682,6 +683,8 @@ header {
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
+
+
 
 
 .find-us-icon {
@@ -838,10 +841,11 @@ header {
 
 .form-input:focus {
     border: 1px solid var(--accent-color);
+    /* outline: none; */
 }
 
 .form-input:focus + .input-icon {
-    fill: #2196F3;
+    fill: var(--accent-color);
 }
 
 .comment-input {
