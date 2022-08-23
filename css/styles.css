@@ -240,6 +240,10 @@ footer .list {
     margin-top: 20px;
 }
 
+.address {
+    font-style: normal;
+}
+
 address .list :not(:last-child) {
     margin-bottom: 9px;
 }
@@ -739,8 +743,7 @@ header {
     transform: translate(-50%, -50%);
     transition: transform var(--animation-duration) ease, opacity 250ms ease;
     border-radius: 4px;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding: 40px;
     }
 
 .close-btn {
@@ -945,6 +948,7 @@ form {
     display: flex;
     flex-direction: row;
     font-family: 'Roboto', sans-serif;
+    align-items: baseline;
 }
 
 .follow-us-input {
@@ -977,7 +981,6 @@ form {
     height: 50px;
     background-color: var(--accent-color);
     border: none;
-    margin-top: 20px;
     border-radius: 4px;
     font-family: inherit;
     font-weight: 700;
